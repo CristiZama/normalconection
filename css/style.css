@@ -140,6 +140,7 @@ body {
 	border: 1px solid white;
 	border-radius: 5px;
 	width: 33%;
+	margin: 0 10px;
 }
 
 .card_image {
@@ -160,4 +161,82 @@ body {
 
 .card_name {
 	text-align: center;
+	font-size: 26px;
+	padding: 15px 0;
+}
+
+.section_title {
+	text-align: center;
+	font-size: 50px;
+}
+
+h1 {
+	font-family: 'Segoe UI';
+}
+
+/* Galery */
+.galery {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.galery_image {
+	width: 33.333333%;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+
+.galery_image img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate3D(-50%, -50%, 0);
+	width: 100%;
+	height: auto;
+}
+
+.image_wide img {
+	width: auto;
+	height: 100%;
+}
+
+/* futcher */
+
+.footer {
+	margin-top: 100px;
+	background-color: rgb(39, 39, 39);
+	font-size: 30px;
+}
+
+.footer_items {
+	padding: 15px;
+	text-align: center;
+}
+
+/* page about */
+/* about */
+.about {
+	text-align: center;
+}
+
+.about_title-top {
+	font-size: 69px;
+}
+
+.about_title-middle {
+	font-size: 59px;
+}
+
+.about_title-bottom {
+	font-size: 49px;
+	opacity: 0.5;
+}
+
+/* contacts */
+.contacts_info {
+	font-size: 25px;
+	margin-left: 100px;
+	margin-bottom: 50px;
 }
