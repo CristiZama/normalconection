@@ -1,0 +1,163 @@
+.btn {
+	font-family: 'Rubik 80s Fade', cursive;
+	font-size: 50px;
+
+	background-color: black;
+	color: white;
+	
+	text-align: center;
+	margin: auto;
+	display: flex;
+	
+	padding: 15px;
+	border: 5px solid white;
+	border-radius: 30px;
+}
+
+body {
+	font-size: 30px;
+	font-family: 'Rubik 80s Fade', cursive;
+	color: white;
+
+	background-image: url("https://img.freepik.com/free-vector/abstract-black-texture-background-hexagon_206725-413.jpg?w=2000");
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.formatedText {
+	font-size: 50px;
+	font-weight: 500;
+	text-decoration: underline;
+	word-spacing: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	text-indent: 20px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+}
+
+.navbar {
+	border-bottom: 3px solid white;
+}
+
+.navbarItems {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 0px;
+}
+
+.container {
+	max-width: 1150px;
+	padding: 0 15px;
+}
+
+.navbarLogo img{
+	width: 100px;
+	height: auto;
+}
+
+.menuItems {
+	display: flex;
+	align-items: center;
+}
+
+.menuItem {
+	list-style-type: none;
+	padding: 10px 25px;
+}
+
+.menuItems a {
+	color: white;
+	text-decoration: none;
+	transition: all 0.3s linear;
+}
+
+.menuItems a:hover {
+	background-color: white;
+	color: black;
+}
+
+.navbarSearch img {
+	width: 30px;
+	height: auto;
+	margin-right: 10px;
+}
+
+.navbarSearch {
+	display: flex;
+	align-items: center;
+}
+
+.navbarSearch input {
+	padding: 5px 15px;
+	width: 70%;
+}
+
+/* WHY SECTION(idk tbh) */
+.section {
+	margin-top: 50px;
+}
+
+.why {
+	display: flex;
+	justify-content: space-between;
+}
+
+.whyImg {
+	width: 50%;
+	height: auto;
+}
+
+.whyImg img {
+	width: 100%;
+	height: auto;
+}
+
+.whyText {
+	width: 50%;
+	margin-left: 20px;
+}
+
+.textText {
+	margin-top: 50px;
+}
+
+/* MEMBRUSKA */
+
+.members {
+	display: flex;
+	justify-content: space-between;
+}
+
+.members_card {
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 33%;
+}
+
+.card_image {
+	width: 100%;
+	height: 350px;
+	position: relative;
+	overflow: hidden;
+}
+
+.card_image img {
+	position: absolute;
+	width: 100%;
+	height: auto;
+	top: 50%;
+	left: 50%;
+	transform: translate3D(-50%, -50%, 0);
+}
+
+.card_name {
+	text-align: center;
+}
